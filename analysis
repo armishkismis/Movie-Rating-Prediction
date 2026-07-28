@@ -1,9 +1,0 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-
-df = pd.read_csv(
-    "Movie_rating_prediction_cleaned.csv",
-    encoding='latin1'
-)
-
-print(df.head())
